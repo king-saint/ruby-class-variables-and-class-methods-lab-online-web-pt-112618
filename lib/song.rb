@@ -18,7 +18,7 @@ class Song
       end
   
       def self.genres
-        a = 0
+        
           if @@genres.select{ |e| ary.count(e) > 1 }.uniq
               @@genres.delete(s_gen)
           end
