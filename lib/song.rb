@@ -26,12 +26,12 @@ class Song
       end
       
       def self.artists
-         @@artists.detect do |s_art| 
-            @@artists.delete(s_art) if @@artists.count(s_art) > 1 
+        # @@artists.detect do |s_art| 
+         #   @@artists.delete(s_art) if @@artists.count(s_art) > 1 
            
-          end
+          #end
           
-        return @@artists
+        return @@artists.uniq
       end
   
 end
