@@ -18,13 +18,11 @@ class Song
       end
   
       def self.genres
-        
-          return @@genres.uniq
+         @@genres.uniq
       end
       
       def self.artists
-       
-        return @@artists.uniq
+         @@artists.uniq
       end
   
 end
