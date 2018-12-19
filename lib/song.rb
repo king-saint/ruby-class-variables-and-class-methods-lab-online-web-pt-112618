@@ -27,7 +27,7 @@ class Song
       
       def self.artists
          @@artists.detect do |s_art| 
-            @@artists.delete(s_art) if a.count(s_art) > 1 
+            @@artists.delete(s_art) if @@artists.count(s_art) > 1 
               
               
           end
